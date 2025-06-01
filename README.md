@@ -25,7 +25,7 @@ A Loadable Kernel Module (LKM) lets code run in kernel space without rebooting. 
 
 ## 📁 Files
 
-- `reverseshell_module.c`: The kernel module source code  
+- `k8s-lkm-reverse-shell.c`: The kernel module source code  
 - `Makefile`: Used to compile the module for the target kernel
 
 ---
