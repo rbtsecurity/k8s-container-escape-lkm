@@ -9,7 +9,7 @@ Featured in [RBT Security’s Kubernetes Penetration Testing – Part Three](htt
 
 ---
 
-### 🔍 About LKM (350-char Description)  
+### 🔍 About LKM (Description)  
 A Loadable Kernel Module (LKM) lets code run in kernel space without rebooting. When used from a privileged Kubernetes container, it can enable full host compromise. This PoC shows how attackers exploit SSTI, load a reverse shell LKM, and escape the container to gain root access on the Node.
 
 ---
