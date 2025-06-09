@@ -2,7 +2,9 @@
 
 This repository demonstrates a real-world **container escape technique** using a custom **Linux Kernel Module (LKM)** to spawn a reverse shell from within a `--privileged` Kubernetes container.
 
-Featured in [RBT Security’s Kubernetes Penetration Testing – Part Three](https://www.rbtsec.com/blog/kubernetes-pentesting-part-three), this proof-of-concept shows how attackers can go beyond the container boundary and **execute commands directly on the host**.
+Featured in [RBT Security’s Kubernetes Penetration Testing – Part Three](https://www.rbtsec.com/blog/kubernetes-penetration-testing-part-three-breaking-out-with-privileged-containers/), this proof-of-concept shows how attackers can go beyond the container boundary and **execute commands directly on the host**.
+
+Video Tutorial: https://www.youtube.com/watch?v=YHCwMQY5SYs&list=PLUMEY7cBcvDMBeAK8RbJ00VHCIZkQcTV1 
 
 > ⚠️ **For educational and authorized testing only.**  
 > Do NOT run this code in any environment you do not own or have explicit permission to test.
